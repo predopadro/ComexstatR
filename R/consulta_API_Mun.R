@@ -132,7 +132,7 @@ pesquisar_comex_stat_mun <- function(ano_inicial = substr(Sys.Date(), 1,4 ) , an
   filtro_cs <- utils::URLencode(filtro_cs)
 
   #endereço base da API
-  comex_stat <- "http://api.comexstat.mdic.gov.br/cities?filter="
+  comex_stat <- "https://api-comexstat.mdic.gov.br/cities?filter="
 
   #cria a URL completa para a consulta
   url_completa <- paste0(comex_stat, filtro_cs)
