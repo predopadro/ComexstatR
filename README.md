@@ -4,4 +4,4 @@
 ## Instalação
  ```R
  install.packages("devtools")
- devtools::install_github("jorgeguto/ComexstatR")
+ devtools::install_github("predopadro/ComexstatR")
